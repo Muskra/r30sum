@@ -17,7 +17,7 @@ func parseArguments(args []string) (string, int) {
     data := ""
     lenght := 128
     exist := [...]bool{false, false, false}
-    helpMessage := fmt.Sprintf("crycellaton is a Cryptographic Cellular Automaton based on rule 30.\nUsage:\n\tcrycellaton [OPTION] argument\nOptions:\n\t'-l', '--lenght'\tchange the lenght of the final output. Default is %d.\n\t'-f', '--file'\treads file instead of argment.", lenght)
+    helpMessage := fmt.Sprintf("r30sum is a Cryptographic Cellular Automaton based on rule 30.\nUsage:\n\tr30sum [OPTION] argument\nOptions:\n\t'-l', '--lenght'\tchange the lenght of the final output. Default is %d.\n\t'-f', '--file'\treads file instead of argment.", lenght)
 
     for i := 0 ; i < len(args) ; i = i + 1 {
         
